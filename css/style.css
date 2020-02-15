@@ -1,0 +1,106 @@
+body {
+ background-color:#a9d7d1;
+ text-align: center;
+}
+
+.main {
+ background-color: #f5f5f5;
+ width: 1000px;
+ margin: 0px auto;
+ padding-top: 20px;
+}
+
+.labels {
+ display: inline-block;
+ text-align: right;
+ width: 40%;
+ padding: 5px;
+ margin-top: 10px;
+ /* background-color: pink; */
+}
+.forms {
+ display: inline-block;
+ text-align: left;
+ width: 48%;
+ vertical-align: middle;
+ /* background-color: plum; */
+}
+
+.checkbox {
+ position: relative;
+ margin-left: 10px;
+ padding-bottom: 10px;
+}
+
+li {
+ list-style: none;
+ height: 30px;
+}
+
+.form-control {
+height: 20px;
+width: 280px;
+padding: 5px;
+margin: 10px;
+border: 1px solid #c0c0c0;
+border-radius: 5px;
+}
+
+select {
+ height: 35px;
+ width: 140px;
+ padding: 5px;
+ margin: 10px;
+ margin-top: 15px;
+ border: 1px solid #c0c0c0;
+ border-radius: 5px;
+}
+
+textarea {
+ height: 20px;
+ width: 280px;
+ padding: 5px;
+ margin: 10px;
+ border: 1px solid #c0c0c0;
+ border-radius: 5px;
+}
+
+.submit {
+ background-color: white;
+ border-radius: 4px;
+ border: 2px solid #2791d3;
+ color: #2791d3;
+ font-size: 1em;
+ height: 40px;
+ width: 96px;
+ margin: 10px;
+}
+                
+.submit:hover {
+ cursor: pointer;
+ background-color: #2791d3;
+ color: white;
+}
+.icons {
+ font-size: 20px;
+ margin-right: 10px;
+ bottom: 10px;
+}
+
+.fa-twitter {
+    color: #00acee;
+}
+
+.fa-line {
+    color: green;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+         
